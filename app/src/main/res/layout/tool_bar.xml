@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:layout_height="40sp"
+    android:layout_width="match_parent"
+    android:background="@color/blue3"
+    android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<TextView
+android:id="@+id/toolbar_title"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/app_name"
+android:textSize="20sp"
+    android:textColor="@color/white"/>
+
+    </android.support.v7.widget.Toolbar>
